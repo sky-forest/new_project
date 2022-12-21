@@ -38,7 +38,7 @@ def run_heatmap_app():
         st.bar_chart(df_selected)
 
 
-    st.subheader('근무시간과 가구소득을 라인차트로 비교하기')
+    st.subheader('근무시간과 가구소득 비교하기')
 
     selected_list4 = st.selectbox('근무시간을 선택해주세요.', column_list[:6])
     selected_list44 = st.selectbox('가구소득을 선택해주세요.', column_list[6:])
