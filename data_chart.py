@@ -7,6 +7,8 @@ from matplotlib import rcParams
 import plotly.express as px
 
 
+rcParams['font.family'] = 'Malgun Gothic'
+
 
 def run_heatmap_app():
     df= pd.read_csv('군구별_근로시간과 가구소득', index_col=0, )
