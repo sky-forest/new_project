@@ -47,7 +47,7 @@ def run_heatmap_app():
     st.line_chart(df_selected)
 
 
-    selected_list5 = st.multiselect('상관관계를 확인할 데이터를 선택하세요.', column_list)
+    selected_list5 = st.multiselect('상관 관계를 확인할 데이터를 선택하세요.', column_list)
     if len(selected_list5) >= 2 :
 
         df_corr = df[selected_list5].corr()
