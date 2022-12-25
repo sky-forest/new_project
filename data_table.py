@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 def run_maxmin_app():
-    df= pd.read_csv('군구별_근로시간과 가구소득', index_col=0)
+    df= pd.read_csv('군구별_근로시간과 가구소득.csv', index_col=0)
     
     st.image('https://cdn.press.uos.ac.kr/news/photo/202109/12807_6970_5031.jpg')
 
