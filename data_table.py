@@ -4,13 +4,16 @@ import pandas as pd
 def run_maxmin_app():
     df= pd.read_csv('군구별_근로시간과 가구소득.csv', index_col=0)
     
-    st.image('https://cdn.press.uos.ac.kr/news/photo/202109/12807_6970_5031.jpg')
-
     if st.checkbox('전체 데이터 확인하기'):
 
         st.dataframe(df.iloc[: , : 5])
         st.dataframe(df.iloc[: , 6: ])
         st.text('(단위: %)')
+
+
+        
+    st.image('https://cdn.press.uos.ac.kr/news/photo/202109/12807_6970_5031.jpg')
+
 
 
     if st.checkbox('항목별 최대, 최소 데이터를 갖는 군/구 확인하기'):
