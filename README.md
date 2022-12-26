@@ -8,7 +8,7 @@
 
 4. 하나로 합친 csv 파일을 jupyter notebook 에서 분석했습니다.
 
-5. 분석한 자료를 visual studio code 에 코드를 작성하였습니다.
+5. 분석한 자료를 가지고 visual studio code 에서 코드 작성을하였습니다.
 
 6. visual studio code 를 AWS의 EC2 서버에 연결시킨 후 streamlit 웹 대시보드를 생성하였습니다.
 
