@@ -11,7 +11,7 @@ rcParams['font.family'] = 'Malgun Gothic'
 
 
 def run_heatmap_app():
-    df= pd.read_csv('군구별_근로시간과 가구소득', index_col=0, )
+    df= pd.read_csv('군구별_근로시간과 가구소득.csv', index_col=0, )
 
     st.subheader('차트로 데이터 확인하기')
 

@@ -6,5 +6,8 @@ def run_home_app():
     st.text('2021년도 자료를 기반으로 작성되었습니다.')
 
     img_url= 'https://img.freepik.com/premium-vector/mechanical-scales-with-dollar-coin-and-hourglass-time-and-money-balance-comparison-work-and-value-financial-profit-annual-revenue-future-income-cash-and-watch-on-weight-scale_458444-185.jpg'
-
     st.image(img_url)
+
+
+    st.info('자료 출처1: https://www.incheon.go.kr/data/DATA010201/view?docId=15066303')
+    st.info('자료 출처2: https://www.incheon.go.kr/data/DATA010201/view?docId=15066292')
